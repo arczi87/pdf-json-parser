@@ -1,0 +1,25 @@
+{
+  "name": "pdf-json-parser",
+  "version": "1.0.2",
+  "description": "Pdf to Json parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "webpack --config examples/webpack.config.js --watch"
+  },
+  "author": "Artur Pawlowski <art.pawlowski@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pdfjs-dist": "^2.0.943"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
